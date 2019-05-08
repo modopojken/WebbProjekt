@@ -15,8 +15,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/game', function () {
-    return view("game");
+    return view("/words/game");
 });
 Route::get('/addword', function () {
     return view("addword");
 });
+Route::get('/words', 'WordsController@index');
+
+Route::get('/words/create', 'WordsController@create');
+
+Route::post('/words', 'WordsController@store');
