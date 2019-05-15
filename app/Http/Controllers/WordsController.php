@@ -32,4 +32,16 @@ class WordsController extends Controller
 
         return redirect('/words');
     }
+
+
+    public function all() {
+        $word = new Word();
+        return $word->all();
+    }
+    public function allt()
+    {
+        $words = word::all();
+
+        return view('words.allt', compact('words'));
+    }
 }

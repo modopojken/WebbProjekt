@@ -14,13 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/game', function () {
-    return view("/words/game");
-});
-Route::get('/addword', function () {
-    return view("addword");
-});
+
 Route::get('/words', 'WordsController@index');
+
+Route::get('/words/all', 'WordsController@all');
+
+Route::get('/words/allt', 'WordsController@allt');
 
 Route::get('/words/create', 'WordsController@create');
 
