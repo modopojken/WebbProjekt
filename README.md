@@ -45,4 +45,6 @@ Tors V.18: Skapa routing och grundfilerna. Skriv också planering
 Ons V.19: Routa ihop framsida och spelsida, fixa layour, kunna hämta från databas- 
 Tors V.19: Fixa timers till clue, kunna gissa rätt eller fel, random ord att hissa
 Ons V.20: Gissa rätt = nästa ord, randomizer, submitta med ender. 
-Tors: V.20: Gör om gör rätt. 
+Tors V.20: Gör om gör rätt. 
+Onsdag V.21: Inge mer skelett. För fronten så att det ser snyggt ut nu!
+Torsdag V.21: Skriva documentation.
