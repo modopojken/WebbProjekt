@@ -4,7 +4,7 @@
 @section('content')
 <div class="container">
     <div class="text-center">
-        <h1>Välkommen till nästa fråga!</h1>
+        <h1>Första frågan är redo, kör!</h1>
 
        <div id="firstGame" style="">
         <div style="display:none;">

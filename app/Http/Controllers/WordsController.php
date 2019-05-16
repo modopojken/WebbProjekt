@@ -44,4 +44,10 @@ class WordsController extends Controller
 
         return view('words.allt', compact('words'));
     }
+    public function game2()
+    {
+        $words = word::all();
+
+        return view('words.game2', compact('words'));
+    }
 }

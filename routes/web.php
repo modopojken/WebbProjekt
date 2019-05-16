@@ -21,6 +21,8 @@ Route::get('/words/all', 'WordsController@all');
 
 Route::get('/words/allt', 'WordsController@allt');
 
+Route::get('/words/game2', 'WordsController@game2');
+
 Route::get('/words/create', 'WordsController@create');
 
 Route::post('/words', 'WordsController@store');

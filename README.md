@@ -30,7 +30,7 @@ Utverdering av lektion: Har inte gjort klart någonting jag planerade att få kl
 Torsdag 16/5-2019
 *Plan för lektion: Göra så att då man är klar med en fråga så kommer nästa fram. 
 
-Utverdering av lektion: 
+Utverdering av lektion: Jag lykades med att ta bort ledtrådar när jag svarar rätt. Jag gjorde också om logiken så att jag får en ny ledtråd när jag svarar fel. Jag arbetade mycket med att göra om det jag gjorde förra gången och prova olika saker som inte funkade. Jag har skapat en ny sida där jag ska skicka migsjälv när jag svarar rätt, för att då få fram nästa fråga. Jag har också gjort diverse förfiningar och förbättringar i koden. 
 
 
 
@@ -45,4 +45,4 @@ Tors V.18: Skapa routing och grundfilerna. Skriv också planering
 Ons V.19: Routa ihop framsida och spelsida, fixa layour, kunna hämta från databas- 
 Tors V.19: Fixa timers till clue, kunna gissa rätt eller fel, random ord att hissa
 Ons V.20: Gissa rätt = nästa ord, randomizer, submitta med ender. 
-Tors: V.20: 
+Tors: V.20: Gör om gör rätt. 
