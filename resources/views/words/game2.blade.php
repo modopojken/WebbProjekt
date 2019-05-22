@@ -8,7 +8,9 @@
 
        <div id="firstGame" style="">
         <div style="display:none;">
-           @foreach ($words as $word)
+           @foreach ($words as $word)  <!-- Ett försök att gå till nästa sida då jag svarar rätt på
+             första frågan. Jag kom inte så långt i mitt arbete för att göra denna, för att detta
+            hade jag tanken om på då det va en lektion kvar -->
                
                 @if($word->id == 2)
                     <p id="rightAnswer">{{ $word->word }}</p>
@@ -19,7 +21,7 @@
         
         <h3>Endast små bokstäver</h3>
         <br>
-        <input type="text" name="answer" id="answer">
+        <input type="text" name="answer" id="answer"> 
         <br>
         <button id="answerButton">Click to answer</button>
 

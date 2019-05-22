@@ -13,25 +13,25 @@
     <form method="POST" action="/words">
         {{ csrf_field() }}
         <div>
-            <input type="text" name="word" placeholder="Word title">
+            <input type="text" name="word" placeholder="Order man ska gissa till">
         </div>
         <div>
-            <textarea name="clue1" placeholder="Words Clue1"></textarea>
+            <textarea name="clue1" placeholder="Ledtråd 1"></textarea> <!-- Här så har jag alla input och text ytor för att få in nya ledtrådar till databasen -->
         </div>
         <div>
-            <textarea name="clue2" placeholder="Words Clue1"></textarea>
+            <textarea name="clue2" placeholder="Ledtråd 2"></textarea>
         </div>
         <div>
-            <textarea name="clue3" placeholder="Words Clue1"></textarea>
+            <textarea name="clue3" placeholder="Ledtråd 3"></textarea>
         </div>
         <div>
-            <textarea name="clue4" placeholder="Words Clue1"></textarea>
+            <textarea name="clue4" placeholder="Ledtråd 4"></textarea>
         </div>
         <div>
-            <textarea name="clue5" placeholder="Words Clue1"></textarea>
+            <textarea name="clue5" placeholder="Ledtråd 5"></textarea>
         </div>
         <div>
-            <button type="submit">Create Words</button>
+            <button type="submit">Skapa gissnings sats</button>
         </div>
     </form>
 

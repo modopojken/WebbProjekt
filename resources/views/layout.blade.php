@@ -18,7 +18,7 @@
     
 
     <div class="container text-center">
-        <img class="img-fluid picture" src="/images/gissa.png" alt="FunkarInt">
+        <img class="img-fluid picture" src="/images/gissa.png" alt="FunkarInt"> <!-- Här skapar jag  -->
        
     </div>
     

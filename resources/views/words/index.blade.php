@@ -19,13 +19,14 @@
         
         <h3>Endast små bokstäver</h3>
         <br>
-        <input type="text" name="answer" id="answer">
+        <input type="text" name="answer" id="answer"> <!-- Inputen som tar ditt svar och kör den genom javascript koden -->
         <br>
-        <button id="answerButton">Click to answer</button>
+        <button id="answerButton">Click to answer</button> <!-- knapp som "submittar ditt svar" -->
 
 
 
-        @foreach ($words as $word)
+        @foreach ($words as $word) <!-- Här sätter vi ID så att vi får en fråga från databasen och sedan displayar vi ledtrådar. Bärjar med en
+        sedan så kommer nästa upp om du gissar fel -->
             @if ($word->id == 2)
                 <div id="firstClue" style="">
                     {{ $word->clue1 }}

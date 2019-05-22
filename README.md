@@ -33,11 +33,10 @@ Torsdag 16/5-2019
 Utverdering av lektion: Jag lykades med att ta bort ledtrådar när jag svarar rätt. Jag gjorde också om logiken så att jag får en ny ledtråd när jag svarar fel. Jag arbetade mycket med att göra om det jag gjorde förra gången och prova olika saker som inte funkade. Jag har skapat en ny sida där jag ska skicka migsjälv när jag svarar rätt, för att då få fram nästa fråga. Jag har också gjort diverse förfiningar och förbättringar i koden. 
 
 
+Onsdag 22/5-2019
+*Plan för lektion: Skriva rapport och documentera koden.
 
-
-
-
-
+Utverdering av lektion: Har börjat på rapporten och skrivit lite kommentarer i koden. 
 
 
 Planering (skapad Tors V.18): 
