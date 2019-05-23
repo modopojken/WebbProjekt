@@ -1,3 +1,7 @@
+Plan för projekt: 
+*Ha ett fungerande spel där jag kan ta hem från och ladda upp til databas med automatisk tillgivet ID. Jag vil också ha framsida som tar dig till spelet och en skapa sida. Detta betyder att jag vill ha tre sidor som fungerar innan jag är klar. 
+
+
 Onsdag 24/4-2019
 *Plan för lektion: Skapa projekt och pusha till git samt skapa en logga in sida och en sida där själva spelet kommer att spelas:
 
